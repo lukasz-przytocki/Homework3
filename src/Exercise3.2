@@ -1,0 +1,21 @@
+Klasa to szablon pozwalacjący zdefiniować własne, bardziej złożone typy i pozwala zdefibiować cechy oraz funkcjonalności.
+
+Obiekt to konkretny element klasy posiadający zdefionowane cechy.
+
+Zmienna to konstrukcja programistyczna posiadająca typ, nazwę oraz wartość.
+
+Każda zmienna musi mieć określony typ, np. int, albo String.
+
+Jeżeli deklarację zmiennej poprzedzimy słowem final, to zmienna może być tylko raz zainicjowana.
+
+W klasie mogą się znajdować pola klasy, metody i własne konstruktory
+
+ są wywoływane przez operator new i służą do tworzenia nowych obiektów.
+
+Jeśli w klasie zdefiniowano chociaż jeden konstruktor własny to kompilator nie wygeneruje dla nas klasy konstruktora domyślnego.
+
+Zakładając, że istnieje klasa Car, to przy zapisie:
+
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);  Car car2 = car1;
+
+car1 i car2 to dwie referencje wskazujące na ten sam obiekt.
