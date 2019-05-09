@@ -1,5 +1,4 @@
 public class MathematicalEx3 {
-    int variable;
 
     boolean isEven (int variable){
         if(variable%2==0){
@@ -19,7 +18,4 @@ public class MathematicalEx3 {
     double circleField(double variable){
         return Math.PI* Math.pow(variable,2);
     }
-
-
-
 }
